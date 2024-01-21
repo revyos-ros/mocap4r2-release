@@ -16,14 +16,14 @@ tracks:
       :{release_inc} --os-name rhel
     devel_branch: humble-devel
     last_version: 0.0.2
-    name: upstream
+    name: mocap4r2
     patches: null
     release_inc: '1'
     release_repo_url: null
     release_tag: :{version}
     ros_distro: humble
     vcs_type: git
-    vcs_uri: https://github.com/MOCAP4ROS2-Project/mocap.git
+    vcs_uri: https://github.com/MOCAP4ROS2-Project/mocap4r2.git
     version: :{auto}
   iron:
     actions:
