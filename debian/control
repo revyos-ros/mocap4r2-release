@@ -1,0 +1,12 @@
+Source: ros-humble-rqt-mocap4r2-control
+Section: misc
+Priority: optional
+Maintainer: Francisco Martín Rico <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), qtbase5-dev, ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-mocap4r2-control, ros-humble-mocap4r2-control-msgs, ros-humble-qt-gui-cpp, ros-humble-rclcpp, ros-humble-rqt-gui, ros-humble-rqt-gui-cpp, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-rqt-mocap4r2-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, qtbase5-dev, ros-humble-mocap4r2-control, ros-humble-mocap4r2-control-msgs, ros-humble-qt-gui-cpp, ros-humble-rclcpp, ros-humble-rqt-gui, ros-humble-rqt-gui-cpp, ros-humble-sensor-msgs, ros-humble-ros-workspace
+Description: Control tools GUI
