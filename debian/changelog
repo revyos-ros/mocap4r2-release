@@ -1,0 +1,27 @@
+ros-humble-rqt-mocap4r2-control (0.0.5-2bullseye) bullseye; urgency=high
+
+
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Mon, 22 Jan 2024 23:00:00 -0000
+
+ros-humble-rqt-mocap4r2-control (0.0.4-2bullseye) bullseye; urgency=high
+
+
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Mon, 22 Jan 2024 23:00:00 -0000
+
+ros-humble-rqt-mocap4r2-control (0.0.3-2bullseye) bullseye; urgency=high
+
+  * Rename mocap to mocap4r2 to meet with REP 144
+  * Contributors: Francisco Martín Rico
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Sat, 20 Jan 2024 23:00:00 -0000
+
+ros-humble-rqt-mocap4r2-control (0.0.2-2bullseye) bullseye; urgency=high
+
+  * Initial commit
+  * Contributors: Francisco Martín Rico, jmguerreroh
+
+ -- Francisco Martín Rico <fmrico@gmail.com>  Mon, 08 Jan 2024 23:00:00 -0000
+
+
