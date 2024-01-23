@@ -1,21 +1,31 @@
-# Marker visualization node
-Sends marker data to rviz for graphical rendering.
+# MOCAP4ROS2 
 
-## Parameters
-The following parameters can be used to configure the visualization:
-* `default_marker_color_r` (0.0): marker color red value on a scale of 0 to 1
-* `default_marker_color_g` (1.0): marker color green value on a scale of 0 to 1
-* `default_marker_color_b` (0.0): marker color blue value on a scale of 0 to 1
-* `default_marker_color_b` (1.0): marker alpha value on a scale of 0 to 1
-* `marker_scale_x` (0.014): x scale of the marker (in meters)
-* `marker_scale_y` (0.014): y scale of the marker (in meters)
-* `marker_scale_z` (0.014): z scale of the marker (in meters)
-* `marker_lifetime` (0.1): duration for which the marker will be visible after receiving marker data (in seconds)
-* `marker_frame` (mocap): the origin to which the markers will be rendered relative to, should correspond with the origin used by the mocap system
-* `namespace` (mocap\_markers): namespace attached to the visualized markers
-* `use_markers_with_id` (true): whether to use Marker messages (if false) or MarkerWithId messages (if true). Needs to correspond with the configuration of the motion capture system driver. Currently markers with ID are only supported by the Qualisys driver.
+[![GitHub Action
+Status](https://github.com/MOCAP4ROS2-Project/mocap/workflows/rolling/badge.svg)](https://github.com/MOCAP4ROS2-Project/mocap)
+[![codecov](https://codecov.io/gh/MOCAP4ROS2-Project/mocap/rolling/graph/badge.svg)](https://codecov.io/gh/MOCAP4ROS2-Project/mocap)
 
-## Services
-The `set_marker_color` service changes the marker color based on the marker ID and specified color. Can be used for highlighting markers when using external tools.
-The `reset_marker_color` service resets the color of the marker specified by the marker ID to the default value.
-Both services only work when using MarkerWithId messages.
+This project provides support for ROS2 integration with Vicon cameras (MOCAP systems based on vision) and Technaid TechMCS IMUs (MOCAP systems based on motion sensors).
+
+The project [MOCAP4ROS2](https://rosin-project.eu/ftp/mocap4ros2) is funded as a Focused Technical Project by [ROSIN](http://rosin-project.eu/).
+
+
+<a href="http://rosin-project.eu">
+  <img src="http://rosin-project.eu/wp-content/uploads/rosin_ack_logo_wide.png"
+       alt="rosin_logo" height="60" >
+</a>
+
+Supported by ROSIN - ROS-Industrial Quality-Assured Robot Software Components.  
+More information: <a href="http://rosin-project.eu">rosin-project.eu</a>
+
+<img src="http://rosin-project.eu/wp-content/uploads/rosin_eu_flag.jpg"
+     alt="eu_flag" height="45" align="left" >  
+
+This project has received funding from the European Union’s Horizon 2020  
+research and innovation programme under grant agreement no. 732287.
+
+***
+
+<p align="center"> 
+<img align="center" src="https://github.com/MOCAP4ROS2-Project/mocap4ros2_exp_and_resources/blob/rolling/resources/mocap4ros_arch.png" 
+    alt="mocap4ros_arch" width="100%">
+</p>
