@@ -1,0 +1,12 @@
+Source: ros-humble-mocap4r2-control
+Section: misc
+Priority: optional
+Maintainer: Francisco Martín <fmrico@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-mocap4r2-control-msgs, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-std-msgs <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-mocap4r2-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-mocap4r2-control-msgs, ros-humble-rclcpp, ros-humble-rclcpp-lifecycle, ros-humble-ros-workspace
+Description: Control protocol for MOCAP4ROS2 Project
