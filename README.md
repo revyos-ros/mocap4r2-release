@@ -1,10 +1,12 @@
-# mocap4r2_control_msgs
-This repository contains the ROS messages necessary to communicate the drivers with the system.
+# MOCAP4ROS2 
 
-# MOCAP4ROS2
-This project provides support for ROS2 integration with Vicon cameras (Mocap systems based on vision) and Technaid TechMCS IMUs (Mocap systems based on motion sensors).
+[![GitHub Action
+Status](https://github.com/MOCAP4ROS2-Project/mocap/workflows/rolling/badge.svg)](https://github.com/MOCAP4ROS2-Project/mocap)
+[![codecov](https://codecov.io/gh/MOCAP4ROS2-Project/mocap/rolling/graph/badge.svg)](https://codecov.io/gh/MOCAP4ROS2-Project/mocap)
 
-The project [MOCAP4ROS2](https://rosin-project.eu/ftp/MOCAP4ROS2) is funded as a Focused Technical Project by [ROSIN](http://rosin-project.eu/).
+This project provides support for ROS2 integration with Vicon cameras (MOCAP systems based on vision) and Technaid TechMCS IMUs (MOCAP systems based on motion sensors).
+
+The project [MOCAP4ROS2](https://rosin-project.eu/ftp/mocap4ros2) is funded as a Focused Technical Project by [ROSIN](http://rosin-project.eu/).
 
 
 <a href="http://rosin-project.eu">
@@ -24,6 +26,6 @@ research and innovation programme under grant agreement no. 732287.
 ***
 
 <p align="center"> 
-<img align="center" src="https://github.com/MOCAP4ROS2-Project/MOCAP4ROS2_exp_and_resources/blob/master/resources/mocap4ros_arch.png" 
+<img align="center" src="https://github.com/MOCAP4ROS2-Project/mocap4ros2_exp_and_resources/blob/rolling/resources/mocap4ros_arch.png" 
     alt="mocap4ros_arch" width="100%">
 </p>
