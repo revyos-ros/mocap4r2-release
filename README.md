@@ -1,3 +1,35 @@
+## mocap4r2 (humble) - 0.0.7-1
+
+The packages in the `mocap4r2` repository were released into the `humble` distro by running `/usr/local/bin/bloom-release mocap4r2 --rosdistro humble` on `Thu, 25 Jan 2024 10:59:14 -0000`
+
+These packages were released:
+- `mocap4r2_control`
+- `mocap4r2_control_msgs`
+- `mocap4r2_dummy_driver`
+- `mocap4r2_marker_publisher`
+- `mocap4r2_marker_viz`
+- `mocap4r2_marker_viz_srvs`
+- `mocap4r2_robot_gt`
+- `mocap4r2_robot_gt_msgs`
+- `rqt_mocap4r2_control`
+
+Version of package(s) in repository `mocap4r2`:
+
+- upstream repository: https://github.com/MOCAP4ROS2-Project/mocap4r2.git
+- release repository: https://github.com/MOCAP4ROS2-Project/mocap4r2-release.git
+- rosdistro version: `0.0.6-1`
+- old version: `0.0.6-1`
+- new version: `0.0.7-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## mocap4r2 (humble) - 0.0.6-1
 
 The packages in the `mocap4r2` repository were released into the `humble` distro by running `/usr/local/bin/bloom-release mocap4r2 --rosdistro humble` on `Tue, 23 Jan 2024 11:06:03 -0000`
