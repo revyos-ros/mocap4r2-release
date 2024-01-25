@@ -1,0 +1,40 @@
+ros-humble-mocap4r2-marker-publisher (0.0.7-1bullseye) bullseye; urgency=high
+
+
+
+ -- Francisco Martín <fmrico@gmail.com>  Wed, 24 Jan 2024 23:00:00 -0000
+
+ros-humble-mocap4r2-marker-publisher (0.0.6-1bullseye) bullseye; urgency=high
+
+
+
+ -- Francisco Martín <fmrico@gmail.com>  Mon, 22 Jan 2024 23:00:00 -0000
+
+ros-humble-mocap4r2-marker-publisher (0.0.5-1bullseye) bullseye; urgency=high
+
+
+
+ -- floris <floris.erich@aist.go.jp>  Mon, 22 Jan 2024 23:00:00 -0000
+
+ros-humble-mocap4r2-marker-publisher (0.0.4-1bullseye) bullseye; urgency=high
+
+
+
+ -- floris <floris.erich@aist.go.jp>  Mon, 22 Jan 2024 23:00:00 -0000
+
+ros-humble-mocap4r2-marker-publisher (0.0.3-1bullseye) bullseye; urgency=high
+
+  * Rename mocap to mocap4r2 to meet with REP 144
+  * Contributors: Francisco Martín Rico
+
+ -- floris <floris.erich@aist.go.jp>  Sat, 20 Jan 2024 23:00:00 -0000
+
+ros-humble-mocap4r2-marker-publisher (0.0.2-1bullseye) bullseye; urgency=high
+
+  * Update to msgs changes
+  * Initial commit
+  * Contributors: Francisco Martín Rico
+
+ -- floris <floris.erich@aist.go.jp>  Mon, 08 Jan 2024 23:00:00 -0000
+
+
